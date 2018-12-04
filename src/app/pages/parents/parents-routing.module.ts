@@ -9,7 +9,7 @@ const routes: Routes = [
     component: ParentsListComponent
   },
   {
-    path: 'new',
+    path: 'novo',
     component: ParentsFormComponent
   }
 ];

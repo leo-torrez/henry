@@ -1,3 +1,74 @@
-<p>
-  parents-form works!
-</p>
+<div class="d-flex justify-content-center">
+  <div class="col-lg-8">
+    <div class="card h-card">
+      <div class="card-body">
+        <!-- NOME E SOBRENOME -->
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputFirstName">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputFirstName"
+              placeholder="nome do responsável"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputLastName">Sobrenome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputLastName"
+              placeholder="nome do responsável"
+            />
+          </div>
+        </div>
+        <!-- EMAIL - TELEFONE - TIPO -->
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail">E-mail</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEmail"
+              placeholder="e-mail do responsável"
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputCellPhone">Telefone</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="inputCellPhone"
+              placeholder="telefone do responsável"
+            />
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputCellPhone">Whatsapp</label> <br />
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary h-checkbox-personalizado active h-input-height">
+                <input
+                  type="radio"
+                  name="options"
+                  id="option1"
+                  autocomplete="off"
+                  checked
+                />
+                Sim
+              </label>
+              <label class="btn h-checkbox-personalizado h-input-height">
+                <input
+                  type="radio"
+                  name="options"
+                  id="option2"
+                  autocomplete="off"
+                />
+                Não
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

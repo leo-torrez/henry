@@ -7,11 +7,24 @@
   flex-direction: row;
 }
 
-
-.h-panel{
+.h-panel {
   width: calc(100% - 255px);
   min-height: $calc-height-navbar;
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+.h-btn-icon {
+  margin-right: 5px;
+  font-size: 80%;
+}
+
+.h-checkbox-personalizado {
+  &:not(:disabled):not(.disabled).active{
+    background: #0a003a;
+    border-color: #01003a;
+  }
+  background: #f9fbfd;
+  border-color: #d2dae8;
 }

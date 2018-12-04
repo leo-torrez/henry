@@ -3,20 +3,4 @@
   border-width: $button-border-width;
   cursor: pointer;
   transition: $linear;
-  &.btn-dark{
-    background-color: $black;
-    border-color: $black;
-    color:$white;
-  }
-
-  &.btn-new-primary{
-    background: $color-new-primary;
-    border-color: $color-hover-new-primary;
-    color:$white;
-  }
-
-  &:hover{
-    background-color: $color-hover-new-primary;
-    color: $white;
-  }
 }
