@@ -1,0 +1,17 @@
+.h-page-wrapper {
+  margin-top: $height-navbar;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: $calc-height-navbar;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.h-panel{
+  width: calc(100% - 255px);
+  min-height: $calc-height-navbar;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}

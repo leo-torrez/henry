@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-lg-12 mb-10">
+      <div class="card h-card">
+        <div class="card-body">
+          <h2 class="card-title">Familiares</h2>
+
+          <div class="table-responsive">
+            <table class="table h-table table-striped">
+              <thead>
+                <tr>
+                  <th>Nome</th>
+                  <th>Grau</th>
+                  <th>E-mail</th>
+                  <th>Celular/WhatsApp</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let parent of resource | async">
+                  <td>{{parent.name}}</td>
+                  <td>{{parent.ties}}</td>
+                  <td>{{parent.email}}</td>
+                  <td>{{parent.whatsapp}}</td>
+                  <td>Editar Excluir</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+

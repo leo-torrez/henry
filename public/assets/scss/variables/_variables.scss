@@ -1,0 +1,25 @@
+$background-color: red;
+
+/* NEW COLOR */
+$color-new-primary: #2979F9;
+$color-hover-new-primary: #2368d6;
+
+
+/* BORDER */
+$button-border-width: 2px;
+
+/* Cursor */
+$cursor-pointer: pointer;
+
+
+/* Transition */
+$transition-duration: 0.25s;
+$transition-type: ease;
+$linear: all linear .3s;
+
+
+/*NAVBAR*/
+$height-navbar: 65px;
+$width-sidenav: 255px;
+$calc-height-navbar: calc(100vh - 65px);
+$background-sidenav: #0a003a;

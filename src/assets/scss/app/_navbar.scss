@@ -1,0 +1,38 @@
+.h-navbar-default {
+  background: $white;
+  transition: background $transition-duration $transition-type;
+  -webkit-transition: background $transition-duration $transition-type;
+  -moz-transition: background $transition-duration $transition-type;
+  -ms-transition: background $transition-duration $transition-type;
+  .h-navbar-wrapper {
+    width: $width-sidenav;
+    height: $height-navbar;
+    background:$background-sidenav;
+  }
+}
+
+.h-sidenav-default {
+  height: $calc-height-navbar;
+  width: $width-sidenav;
+  background:$background-sidenav;
+  .nav{
+    flex-direction: column;
+  }
+  .nav-link {
+    align-items: center;
+    display: flex;
+    padding: 16px 35px;
+    white-space: nowrap;
+    height: 50px;
+    color: #969c99;
+    &:hover{
+      background: #0a003a;
+      color: #ffffff;
+    }
+  }
+  .nav-item.active {
+    .nav-link {
+      color: $white;
+    }
+  }
+}

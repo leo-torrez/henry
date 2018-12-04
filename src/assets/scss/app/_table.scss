@@ -1,0 +1,29 @@
+.h-table {
+  thead {
+    th {
+      padding: 10px;
+      border-top: 0px;
+      border-bottom: 1px solid #f7f7f7;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 15px 20px;
+    }
+  }
+  tbody tr:nth-of-type(odd) {
+    background: #fafcff;
+  }
+
+  tbody {
+    tr:hover {
+      background: #f0f4fb;
+    }
+    td {
+      font-size: 0.8rem;
+      vertical-align: middle;
+      line-height: 1;
+      white-space: nowrap;
+      padding: 15px 20px;
+      border-top: 1px solid #f7f7f7;
+    }
+  }
+}
